@@ -1,0 +1,49 @@
+class KelilingLingkaran(object):
+          def__init__(self, r)
+                    self.jarijari= r
+          def hitungKeliling(self):
+                    return 2*3.14*self.jarijari
+                    
+class LuasLingkaran(object):
+          def__init__(self,r):
+                    self.jarijari=r
+          def hitungLuas(self):
+                    return 3.14 * (self.jarijari * self.jarijari)
+                   
+def main():
+          #Lingkaran pertama
+          Lingkaran99 = KelilingLingkaran(7)
+          Lingkaran90 = LuasLingkaran(7)
+          
+          print('LINGKARAN 01')
+          
+          print('-KELILING')
+          print('phi\t:3.14')
+          print('jarijari\t:',Lingkaran99.jarijari)
+          print('KelilingLingkaran\t=',Lingkaran99.hitungKeliling())
+          
+          print('-LUAS')
+          print('phi\t:3.14')
+          print('jarijari\t:',Lingkaran90.jarijari)
+          print('Luasnya\t =',Lingkaran90.hitungLuas())
+          
+          print('')
+          
+          #Lingkaran kedua
+          Lingkaran89 = KelilingLingkaran(9)
+          Lingkaran46 = LuasLingkaran(9)
+          
+          print('LINGKARAN 02')
+          
+          print('-KELILING')
+          print('phi\t:3.14')
+          print('jarijari\t:',Lingkaran89.jarijari)
+          print('Kelilingnya\t=',Lingkaran89.hitungKeliling())
+          
+          print('-LUAS')
+          print('phi\t:3.14')
+          print('jarijari\t:',Lingkaran46.jarijari)
+          print('Luasnya\t=',Lingkaran46.hitungLuas())
+          
+if__name__=="__main__":
+         main()
